@@ -10,14 +10,14 @@
 
 
 ## Repo structure
-/data -> Data files 
-/notebooks
--- data_sandbox -> notbook to explore data creator
--- PrepareFeatures -> Paddy's exploratory notebbok
-data.py -> Main dataset creator. Configurable to create different variations of fine-tuning datasets.
-utils.py -> utility functions (apk, mapk[25]) 
-train.py -> non implemented train code, will follow this general structure for finetuning: https://github.com/SeanGormann/llm_recovery/blob/main/dpo_main.ipynb 
-test.py -> non implemented code to evaluate performance 
+- /data -> Data files 
+- /notebooks
+- -- data_sandbox -> notbook to explore data creator
+- -- PrepareFeatures -> Paddy's exploratory notebbok
+- data.py -> Main dataset creator. Configurable to create different variations of fine-tuning datasets.
+- utils.py -> utility functions (apk, mapk[25]) 
+- train.py -> non implemented train code, will follow this general structure for finetuning: https://github.com/SeanGormann/llm_recovery/blob/main/dpo_main.ipynb 
+- test.py -> non implemented code to evaluate performance 
 
 
 ## Example data point:
